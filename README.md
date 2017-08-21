@@ -1,5 +1,8 @@
 # suricata_rule
 
+BoB 6기 취약점 정주영
+이경문 멘토님 과제
+
 ## [리포트] 
 유해 사이트를 탐지할 수 있는 suricata rule을 작성하라.
 ## [리포트 제목] 
@@ -14,4 +17,4 @@ suricata rule을 작성하고 각 사이트에 들어 갔을 때 fast.log에 로
 탐지가 불가능한 사이트는 불가능하다라고 명시할 것.
 github에 탐지에 사용되어 진 rule을 올리고 bob@gilgil.net 계정으로 자신의 git repository 주소를 알려 줄 것.
 
-[mal-sites](https://docs.google.com/spreadsheets/d/1Kv9QrHp3DOZkupr6DOXIs4Nqer-AIdGT_mN1p0xVMlw)
+## [mal-sites](https://docs.google.com/spreadsheets/d/1Kv9QrHp3DOZkupr6DOXIs4Nqer-AIdGT_mN1p0xVMlw)
