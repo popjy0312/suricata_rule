@@ -36,4 +36,4 @@ suricata rule을 작성하고 각 사이트에 들어 갔을 때 fast.log에 로
 
 github에 탐지에 사용되어 진 rule을 올리고 bob@gilgil.net 계정으로 자신의 git repository 주소를 알려 줄 것.
 
-[mal-sites](https://docs.google.com/spreadsheets/d/1Kv9QrHp3DOZkupr6DOXIs4Nqer-AIdGT_mN1p0xVMlw)
+[mal-sites](./mal-sites.txt)
