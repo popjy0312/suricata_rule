@@ -1,7 +1,17 @@
 # suricata_rule
 
 BoB 6기 취약점 정주영
+
 이경문 멘토님 과제
+
+copy test.rules to your directory
+
+to make test.rules
+
+```sh
+$ python gen.py
+```
+
 
 ## [리포트] 
 유해 사이트를 탐지할 수 있는 suricata rule을 작성하라.
