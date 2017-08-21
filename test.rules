@@ -30,14 +30,14 @@ alert tcp any any -> any any (msg:"umj262 rule"; content:"GET / HTTP"; content:"
 alert tcp any any -> any any (msg:"uriminzokkiri rule"; content:"GET / HTTP"; content:"Host: www.uriminzokkiri.com"; sid:10030; rev:1;)
 alert tcp any any -> any any (msg:"uriminzokkiri rule"; content:"GET / HTTP"; content:"Host: www.uriminzokkiri.com"; sid:10031; rev:1;)
 alert tcp any any -> any any (msg:"winclub88 rule"; content:"GET /my/4D.html HTTP"; content:"Host: www.winclub88.net"; sid:10032; rev:1;)
-alert tcp any any -> [104.18.38.97,104.18.39.97] any (msg:"graphgame.net rule"; sid:10033; rev:1;)
-alert tcp any any -> [52.5.76.40,52.2.9.91,52.200.5.96] any (msg:"mujige53770.wixsite.com rule"; sid:10034; rev:1;)
+alert tcp any any -> [104.18.39.97,104.18.38.97] any (msg:"graphgame.net rule"; sid:10033; rev:1;)
+alert tcp any any -> [52.2.9.91,52.5.76.40,52.200.5.96] any (msg:"mujige53770.wixsite.com rule"; sid:10034; rev:1;)
 alert tcp any any -> [206.125.164.82] any (msg:"sex.com rule"; sid:10035; rev:1;)
 alert tcp any any -> [104.25.108.107,104.25.107.107] any (msg:"torrenthaja.com rule"; sid:10036; rev:1;)
 alert tcp any any -> [104.27.145.154,104.27.144.154] any (msg:"torrentkim10.net rule"; sid:10037; rev:1;)
-alert tcp any any -> [104.20.188.49,104.20.189.49] any (msg:"webtoon.bamtoki.com rule"; sid:10038; rev:1;)
+alert tcp any any -> [104.20.189.49,104.20.188.49] any (msg:"webtoon.bamtoki.com rule"; sid:10038; rev:1;)
 # impossible https://www.facebook.com/profile.php?id=100019007882633
 alert tcp any any -> [104.27.151.234,104.27.150.234] any (msg:"www.mtbucks.com rule"; sid:10039; rev:1;)
 # impossible https://www.opioids.com/offshorepharmacy/index.html
-alert tcp any any -> [146.112.225.21,146.112.225.23,146.112.225.22] any (msg:"www.phishtank.com rule"; sid:10040; rev:1;)
+alert tcp any any -> [146.112.225.22,146.112.225.21,146.112.225.23] any (msg:"www.phishtank.com rule"; sid:10040; rev:1;)
 # impossible https://yobit.net/en/dice/
